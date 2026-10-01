@@ -27,6 +27,84 @@
       ],
       "ast": [
         "aggregate/ast/71817556db80ae174eb6ff58e6f666444e546249/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/71817556db80ae174eb6ff58e6f666444e546249.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "github.com/stretchr/testify",
+          "ecosystem": "GO",
+          "version": "1.10.0",
+          "githubOrg": "stretchr",
+          "githubRepo": "testify",
+          "githubCommit": "89cbdd9e7b39eb58896d316a7495597d3aba4371",
+          "githubTag": "v1.10.0",
+          "githubUrl": "https://github.com/stretchr/testify",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/urfave/cli/v2",
+          "ecosystem": "GO",
+          "version": "2.27.7",
+          "githubOrg": "urfave",
+          "githubRepo": "cli",
+          "githubCommit": "19b951ab78929023a9a670722b26ffb1d67c733a",
+          "githubTag": "v2.27.7",
+          "githubUrl": "https://github.com/urfave/cli",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/cpuguy83/go-md2man/v2",
+          "ecosystem": "GO",
+          "version": "2.0.7",
+          "githubOrg": "cpuguy83",
+          "githubRepo": "go-md2man",
+          "githubCommit": "061b6c7cbecd6752049221aa15b7a05160796698",
+          "githubTag": "v2.0.7",
+          "githubUrl": "https://github.com/cpuguy83/go-md2man",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/davecgh/go-spew",
+          "ecosystem": "GO",
+          "version": "1.1.1",
+          "githubOrg": "davecgh",
+          "githubRepo": "go-spew",
+          "githubCommit": "8991bc29aa16c548c550c7ff78260e27b9ab7c73",
+          "githubTag": "v1.1.1",
+          "githubUrl": "https://github.com/davecgh/go-spew",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/pmezard/go-difflib",
+          "ecosystem": "GO",
+          "version": "1.0.0",
+          "githubOrg": "pmezard",
+          "githubRepo": "go-difflib",
+          "githubCommit": "792786c7400a136282c1664665ae0a8db921c6c2",
+          "githubTag": "v1.0.0",
+          "githubUrl": "https://github.com/pmezard/go-difflib",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/russross/blackfriday/v2",
+          "ecosystem": "GO",
+          "version": "2.1.0",
+          "githubOrg": "russross",
+          "githubRepo": "blackfriday",
+          "githubCommit": "4c9bf9512682b995722660a4196c0013228e2049",
+          "githubTag": "v2.1.0",
+          "githubUrl": "https://github.com/russross/blackfriday",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/xrash/smetrics",
+          "ecosystem": "GO",
+          "version": "0.0.0-20240521201337-686a1a2994c1",
+          "githubOrg": "xrash",
+          "githubRepo": "smetrics",
+          "githubUrl": "https://github.com/xrash/smetrics",
+          "source": "build_file:go.mod"
+        }
       ]
     }
   ],

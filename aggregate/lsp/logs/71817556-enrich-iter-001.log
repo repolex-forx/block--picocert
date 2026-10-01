@@ -1,0 +1,17 @@
+[2026-10-01T09:37:14Z] === ENRICH ITERATION 1 START | repo=block/picocert sha=71817556 ===
+[2026-10-01T09:37:14Z] [iter=1] PHASE START: enrich repo=block/picocert sha=71817556 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/71817556-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/71817556db80ae174eb6ff58e6f666444e546249.nq.gz
+[2026-10-01T09:37:18Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-01T09:37:19Z] [iter=1] AST store loaded triples=131765 load_secs=1 mem_mb=266 MB
+[2026-10-01T09:37:19Z] [iter=1] Step 2: Finding LSP targets mem_mb=266 MB
+[2026-10-01T09:37:19Z] [iter=1] LSP targets found call_sites=1212 imports=1 extends=0 implements=0 secs=0
+[2026-10-01T09:37:19Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=266 MB
+[2026-10-01T09:37:20Z] [iter=1] Position index built positions=8472 nodes_with_types=10243 secs=1 mem_mb=266 MB
+[2026-10-01T09:37:20Z] [iter=1] Step 3: Starting LSP resolution mem_mb=266 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T09:37:20Z] [iter=1] Resolving target type target_type=call_site count=1212
+[2026-10-01T09:37:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=2 resolved=191 errors=1541 current=three-tier-pki.sh
+[2026-10-01T09:37:51Z] [iter=1] Target type resolved target_type=call_site resolved=191 errors=1541 secs=31 mem_mb=266 MB
+[2026-10-01T09:37:51Z] [iter=1] Resolving target type target_type=import_statement count=1
+[2026-10-01T09:37:52Z] [iter=1] Target type resolved target_type=import_statement resolved=1 errors=0 secs=1 mem_mb=266 MB
+[2026-10-01T09:37:55Z] [iter=1] Step 5: Writing final enrichment file triples=3535
+[2026-10-01T09:37:55Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/71817556db80ae174eb6ff58e6f666444e546249.nq.gz size_kb=44
+[2026-10-01T09:37:55Z] [iter=1] PHASE END: enrich elapsed_s=41 elapsed_min=0.7 total_triples=3535
