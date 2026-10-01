@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/picocert/commit/71817556db80ae174eb6ff58e6f666444e546249",
       "git:hexsha": "71817556db80ae174eb6ff58e6f666444e546249",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-01T09:39:14.962505+00:00"
     }
   ]
 }

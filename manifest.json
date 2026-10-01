@@ -105,7 +105,9 @@
           "githubUrl": "https://github.com/xrash/smetrics",
           "source": "build_file:go.mod"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/71817556db80ae174eb6ff58e6f666444e546249/chunk-001.nq.gz",
+      "dep": "dep/71817556db80ae174eb6ff58e6f666444e546249.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
